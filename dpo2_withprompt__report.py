@@ -7,6 +7,13 @@ Original file is located at
     https://colab.research.google.com/drive/157oERw8Ib1VyjfgQVbHdlVWcONWmWgQT
 """
 
+"""
+توجه » مدل مرجع و مدل اصلی یکی گرفته شده اند
+
+این کد مثالی از پیاده سازی الگوریتم است و برای اینکه تمرکز روی الگوریتم باشد کلا از یک مدل استفاده کرده ایم ولی این کار باعث میشود زیان بشدت کم شود و مدل اصلی خوب آموزش نمیبیند
+
+"""
+
 import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import AutoModelForCausalLM, AutoTokenizer
