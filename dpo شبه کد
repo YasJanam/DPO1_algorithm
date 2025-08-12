@@ -1,4 +1,4 @@
-# شبه شکد
+#  dpo شبه کد
   for x , y_pos , y_neg in data:
 
     logp_pos = policy_model.log_prob(x, y_pos)
